@@ -1,0 +1,601 @@
+/* Parámetros globales de Maquetación y Estilo */
+
+h2{
+    font-family: 'Kaushan Script', cursive;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* Estilo propio del sitio web */
+aside#menu-cortina {
+    width: 100%;                /* 100% / <= 300px */
+    height: 100%;
+    display: block;
+    margin: 0;
+    float: none;
+    position: fixed;
+    
+    top: 0;
+    right: -100%;                    /* left / right */
+    z-index: 99991;
+    
+    background: rgba(65, 9, 9, 0.79);
+}
+
+aside#menu-cortina a#abrir { }
+aside#menu-cortina a#abrir i { }
+aside#menu-cortina a#abrir:hover { }
+aside#menu-cortina a#abrir:hover i { }
+
+aside#menu-cortina a#cerrar { }
+aside#menu-cortina a#cerrar i { }
+aside#menu-cortina a#cerrar:hover { }
+aside#menu-cortina a#cerrar:hover i { }
+
+aside#menu-cortina nav#menu-idioma-movil { }
+aside#menu-cortina nav#menu-idioma-movil a { }
+aside#menu-cortina nav#menu-idioma-movil a:hover { }
+aside#menu-cortina nav#menu-idioma-movil span { }
+
+
+
+header {
+    width: 100%;            /*Anchura*/
+    height: 135px;          /*Altura*/
+    display: block;         /*Despliegue*/
+    margin: 0;              /*Margen*/
+    float: none;            /*Lado hacia el que flota*/
+    position: fixed;        /* fixed / absolute / relative / sticky(JS) */
+    
+    top: 0;                 /*Solo sirven para posiciones fijas y absolutas*/
+    left: 0;
+    z-index: 99990;
+    
+    background: #122931;    /*Color de fondo*/
+}
+
+header article {
+    width: 90%;
+    height: 135px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+header article nav#menu-redes-header {
+    width: 82px;
+    height: 20px;
+    display: block;
+    margin: 8px auto;
+    float: right;
+    position: relative;
+    
+}
+header article nav#menu-redes-header a {
+    padding: 0 0 0 10px;
+    color: #E8F8FF;
+    transition: all 0.2s ease-in;
+}
+header article nav#menu-redes-header a:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+header article hr {
+    width: 100%;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+}
+header article a#logo {
+    width: 100px;
+    height: 35px;
+    display: block;
+    margin: 18px 0;
+    float: left;
+    position: relative;
+    
+    transition: all 0.2s ease-in;
+}
+header article a#logo:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+header article a#logo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+header article nav#menu-principal {
+    width: 700px;
+    height: 35px;
+    display: inline-block;
+    margin: 35px auto;
+    float: right;
+    position: relative;
+}
+header article nav#menu-principal a {
+    text-transform: uppercase;
+    padding: 0 10px;
+    font-family: Roboto, sans-serif;
+    color: #E8F8FF;
+    transition: all 0.2s ease-in;
+}
+header article nav#menu-principal a:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+
+
+
+header article nav#menu-idioma {
+    width: 75px;
+    height: 25px;
+    display: block;
+    margin: 35px auto 0;
+    float: right;
+    position: relative;
+}
+header article nav#menu-idioma a { 
+    font-family: Roboto, sans-serif;
+    color: #E8F8FF;
+    transition: all 0.2s ease-in;
+}
+header article nav#menu-idioma a:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+header article nav#menu-idioma span { 
+    font-family: Roboto, sans-serif;
+    color: #E8F8FF;
+}
+
+main {
+    width: 100%;
+    height: auto;         /* auto */
+    display: block;
+    margin: 135px auto 0 auto;
+    float: none;
+    position: relative;
+}
+
+/*INICIO*/
+main section#fila-rila {
+    width: 100%;
+    height: 600px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+    background: url(../img/carpe-bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+main section#fila-rila article {
+    width: 90%;
+    height: 600px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+}
+main section#fila-rila article figure {
+    width: 100%;
+    height: 400px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+    top: 100px;
+}
+main section#fila-rila article figure img#rila {
+    width: 435px;
+    height: 430px;
+    display: block;
+    position: relative;
+    float: right;
+    margin: 0 auto;
+    border-radius: 10%;
+}
+main section#fila-rila article figure img {
+    width: 220px;
+    height: auto;
+    display: block;
+    position: relative;
+    float: right;
+    margin: 55px 75px 0 0;
+    border-radius: 10%;
+}
+main section#fila-rila article figure p {
+    width: 340px;
+    height: auto;
+    display: block;
+    position: relative;
+    float: right;
+    margin: 0 75px 0 0;
+    padding: 50px 0;
+    text-align: right;
+    
+    font-family: Roboto, sans-serif;
+    color: #E8F8FF;
+}
+main section#fila-rila article figure a {
+    width: 220px;
+    height: auto;
+    display: block;
+    position: relative;
+    float: right;
+    margin: 0 75px 0 0;
+    text-align: right;
+    
+    font-family: Roboto, sans-serif;
+    color: #E8F8FF;
+    transition: all 0.2s ease-in;
+}
+main section#fila-rila article figure a:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+main section#fila-rila article figure a i {
+    padding: 0 10px;
+}
+
+main section#fila-servicios {
+    width: 100%;
+    height: 550px;
+    display: block;
+    float: none;
+    position: relative;
+    margin: 0 auto;
+    background: #122931;
+}
+main section#fila-servicios article {
+    width: 90%;
+    height: 500px;
+    display: block;
+    float: none;
+    position: relative;
+    margin: 0 auto;
+}
+main section#fila-servicios article h2 {
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    top: 35px;
+    font-size: 2em;
+    color: #E8F8FF;
+}
+main section#fila-servicios article nav {
+    width: 100%;
+    height: 400px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    top: 40px;
+}
+main section#fila-servicios article nav figure {
+    width: 30.3%;
+    height: 350px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 17px 0;
+}
+main section#fila-servicios article nav figure a {
+    width: 345px;
+    height: 350px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    transition: all 0.2s ease-in;
+}
+main section#fila-servicios article nav figure a:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+main section#fila-servicios article nav figure a span {
+    width: 200px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+    top: 200px;
+    font-size: 1.75em;
+    font-family: 'Yellowtail', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    color: #122931;
+}
+main section#fila-servicios article nav figure a img {
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+
+main section#fila-habilidades {
+    width: 100%;
+    height: 500px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+    background: #E8F8FF;
+}
+main section#fila-habilidades article {
+    width: 90%;
+    height: 500px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+}
+main section#fila-habilidades article h2 {
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    top: 35px;
+    font-size: 2em;
+    color: #122931;
+    text-transform: uppercase;
+}
+main section#fila-habilidades article div#puntajes {
+    width: 100%;
+    height: 500px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 70px auto;
+}
+main section#fila-habilidades article div#puntajes div.fila-puntajes {
+    width: 100%;
+    height: 75px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+}
+main section#fila-habilidades article div#puntajes div.fila-puntajes h5 {
+    display: block;
+    float: left;
+    margin: 0 auto;
+    font-size: 2em;
+    color: #122931;
+    font-family: Roboto, sans-serif;
+}
+main section#fila-habilidades article div#puntajes div.fila-puntajes a {
+    display: block;
+    float: left;
+    margin: 0 50px;
+    font-size: 2em;
+    color: #122931;
+}
+main section#fila-habilidades article div#puntajes div.fila-puntajes a i {
+        padding: 0 10px;
+}
+
+main section#contacto {
+    width: 100%;
+    height: 450px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+    background: #122931;
+}
+main section#contacto article {
+    width: 90%;
+    height: 430px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+}
+main section#contacto article figure {
+    width: 50%;
+    height: 400px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+}
+main section#contacto article figure h2 {
+    color: #E8F8FF;
+    font-size: 2em;
+}
+main section#contacto article figure iframe {
+    width: 100%;
+    border-radius: 30px;
+}
+main section#contacto article figure a {
+    font-family: Roboto, sans-serif;
+    float: right;
+    margin: 10px 0;
+    color: #E8F8FF;
+    transition: all 0.2s ease-in;
+}
+main section#contacto article figure a:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+main section#contacto article figure a i {
+    padding: 0 10px;
+}
+main section#contacto hr {
+    width: 90%;
+}
+
+/*NOSOTROS*/
+main sectio#fila-nosotros {}
+main sectio#fila-nosotros article {}
+main sectio#fila-nosotros article figure {}
+main sectio#fila-nosotros article figure img {}
+main sectio#fila-nosotros article figure img h2 {}
+main sectio#fila-nosotros article figure img h2 p {}
+
+/*TIPOGRAFÍA*/
+main section#fila-tipografia {}
+main section#fila-tipografia article {}
+main section#fila-tipografia article figure {}
+main section#fila-tipografia article figure div#grupo-fb {}
+main section#fila-tipografia article figure div#grupo-fb a {}
+main section#fila-tipografia article figure div#grupo-fb a img {}
+main section#fila-tipografia article figure div#texto-tipo {}
+main section#fila-tipografia article figure div#texto-tipo h2 {}
+main section#fila-tipografia article figure div#texto-tipo p {}
+
+/*IMPRENTA*/
+main section#fila-imprenta {}
+main section#fila-imprenta article {}
+main section#fila-imprenta article figure {}
+main section#fila-imprenta article figure div#grupo-fb {}
+main section#fila-imprenta article figure div#grupo-fb a {}
+main section#fila-imprenta article figure div#grupo-fb a img {}
+main section#fila-imprenta article figure div#texto-imprenta {}
+main section#fila-imprenta article figure div#texto-imprenta h2 {}
+main section#fila-imprenta article figure div#texto-imprenta p {}
+
+/*DIAGRAMACIÓN*/
+main section#fila-diagrmacion {}
+main section#fila-diagrmacion article {}
+main section#fila-diagrmacion article figure {}
+main section#fila-diagrmacion article figure div#grupo-fb {}
+main section#fila-diagrmacion article figure div#grupo-fb a {}
+main section#fila-diagrmacion article figure div#grupo-fb a img {}
+main section#fila-diagrmacion article figure div#texto-diagra {}
+main section#fila-diagrmacion article figure div#texto-diagra h2 {}
+main section#fila-diagrmacion article figure div#texto-diagra p {}
+
+footer {
+    width: 100%;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    /* background: url('../img/alberto-angulo-diseno-web-fondo-01.jpg') no-repeat top center fixed #333; */
+    background: #122931;
+}
+footer article {
+    width: 90%;
+    height: 150px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+}
+footer article nav#menu-redes{
+    width: 220px;
+    height: 50px;
+    display: block;
+    position: relative;
+    float: right;
+    margin: 30px 0;
+}
+footer article nav#menu-redes a{
+    display: block;
+    margin: 5px 0;
+    color: #E8F8FF;
+    font-family: 'roboto', sans-serif;
+    transition: all 0.2s ease-in;
+}
+footer article nav#menu-redes a:hover{
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+footer article nav#menu-redes a i{
+    padding: 0 5px 0 0;
+}
+footer article a#logo-footer{
+    width: 100px;
+    height: 35px;
+    display: block;
+    margin: 25px 0;
+    float: left;
+    position: relative;
+    
+    transition: all 0.2s ease-in;
+    
+}
+footer article a#logo-footer:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+footer article a#logo-footer img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+}
+
+/* Zona Responsive */
+
+/*
+Escritorio y TV         >= 1200px
+Tablets                 <= 1199px --- >= 500px
+Móviles                 <= 499px --- >= 340px
+*/
+
+@media only screen and (max-width: 1199px){    /*Tablets*/
+    aside#menu-cortina {
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 1099px){
+    
+}
+
+@media only screen and (max-width: 999px){
+    
+}
+
+@media only screen and (max-width: 899px){
+    
+}
+
+@media only screen and (max-width: 799px){
+    
+}
+
+@media only screen and (max-width: 699px){
+    
+}
+
+@media only screen and (max-width: 599px){
+    
+}
+
+@media only screen and (max-width: 499px){     /*Móviles*/
+    
+}
+
+@media only screen and (max-width: 449px){
+    
+}
+
+@media only screen and (max-width: 399px){
+    
+}
+
+@media only screen and (max-width: 349px){
+    
+}
